@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T20:52:29.382Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="4Ug1lE65eTb7Wb6ZV3Rd" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T20:54:03.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="ohqYdOT-32eAsIsmQdFv" version="18.0.2" type="github">
   <diagram id="OLMWlwrW4MGCZe-kZoSg" name="Page-1">
     <mxGraphModel dx="944" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,6 +130,9 @@
         <mxCell id="dCXnAdBvSb_dh4sdJ40b-30" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font size=&quot;2&quot; face=&quot;JetBrains Mono, monospace&quot; color=&quot;#629755&quot;&gt;&lt;span style=&quot;caret-color: rgb(98, 151, 85); white-space: pre; background-color: rgb(43, 43, 43);&quot;&gt;&lt;i&gt;第一个运行&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2690" y="925" width="80" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dCXnAdBvSb_dh4sdJ40b-32" target="dCXnAdBvSb_dh4sdJ40b-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dCXnAdBvSb_dh4sdJ40b-32" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font size=&quot;2&quot; face=&quot;JetBrains Mono, monospace&quot; color=&quot;#629755&quot;&gt;&lt;span style=&quot;caret-color: rgb(98, 151, 85); white-space: pre; background-color: rgb(43, 43, 43);&quot;&gt;&lt;i&gt;第二个运行&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2690" y="1100" width="80" height="20" as="geometry" />
         </mxCell>
@@ -176,6 +179,9 @@
         </mxCell>
         <mxCell id="dCXnAdBvSb_dh4sdJ40b-52" value="............................." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="3550" y="1150" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-53" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;注册EquipmentPollingTask&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;注册EquipmentPoller&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;注册EquipmentMessageConsumer&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;注册EquipmentEventListener&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2830" y="1045" width="230" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
