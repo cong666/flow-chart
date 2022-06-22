@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T20:54:03.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="ohqYdOT-32eAsIsmQdFv" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T22:52:51.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="1s0z9vO2mIDsAhTu76Hj" version="18.0.2" type="github">
   <diagram id="OLMWlwrW4MGCZe-kZoSg" name="Page-1">
     <mxGraphModel dx="944" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,6 +182,9 @@
         </mxCell>
         <mxCell id="dCXnAdBvSb_dh4sdJ40b-53" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;注册EquipmentPollingTask&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;注册EquipmentPoller&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;注册EquipmentMessageConsumer&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;注册EquipmentEventListener&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2830" y="1045" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-55" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;DefaultMapInitializer&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3535" y="670" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
