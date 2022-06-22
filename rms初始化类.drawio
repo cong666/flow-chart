@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T20:43:49.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="RJWCnrvktLEfV5v5r0ih" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T20:52:05.892Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="FbEz7Sy6Ozlg2rp96GAn" version="18.0.2" type="github">
   <diagram id="OLMWlwrW4MGCZe-kZoSg" name="Page-1">
     <mxGraphModel dx="944" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,8 +133,46 @@
         <mxCell id="dCXnAdBvSb_dh4sdJ40b-32" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font size=&quot;2&quot; face=&quot;JetBrains Mono, monospace&quot; color=&quot;#629755&quot;&gt;&lt;span style=&quot;caret-color: rgb(98, 151, 85); white-space: pre; background-color: rgb(43, 43, 43);&quot;&gt;&lt;i&gt;第二个运行&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2690" y="1100" width="80" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0.45;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dCXnAdBvSb_dh4sdJ40b-34" target="dCXnAdBvSb_dh4sdJ40b-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3490" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dCXnAdBvSb_dh4sdJ40b-34" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;registerConsumer：&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;ResourceMessageConsumer&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;registerEventListener：&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;ResourceEventListener&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;取得WarehouseResourceInitializer的实现类并调用init方法来做&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-size: 9.8pt;&quot;&gt;仓库资源初始化&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2840" y="885" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-38" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3510" y="740" width="20" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-39" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;ShelfInitializer&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3540" y="720" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-40" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;BoxInitializer&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3540" y="770" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-41" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;PalletInitializer&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3535" y="820" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-42" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;StationPointInitializer&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3540" y="860" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-43" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;PopPickInitializer&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3535" y="910" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-44" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;DefaultStationInitializer&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3535" y="965" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-45" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;RobotMechanismInitializer&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3540" y="1015" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-48" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;DefaultRobotTypeInitializer&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3535" y="1070" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-49" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-size: 9.8pt;&quot;&gt;货架单元格热度计算 ： &lt;/span&gt;ShelfCalcDistanceInitializer&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3520" y="1100" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dCXnAdBvSb_dh4sdJ40b-50" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(187, 181, 41);&quot;&gt;按照&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 181, 41); font-size: 9.8pt;&quot;&gt;@Order&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 181, 41); font-size: 9.8pt;&quot;&gt;顺序来执行&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3360" y="875" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
