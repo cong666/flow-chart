@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T11:40:14.825Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="b4ZSAPV2ME9sL_7ekwch" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-26T15:14:29.833Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="BBvuPrbfWJsZ43emvc3e" version="18.0.2" type="github">
   <diagram id="OLMWlwrW4MGCZe-kZoSg" name="Page-1">
     <mxGraphModel dx="944" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,6 +150,9 @@
         <mxCell id="dCXnAdBvSb_dh4sdJ40b-39" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;ShelfInitializer&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3540" y="720" width="140" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="cYnV1N8MFWXkoa1zYh9y-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dCXnAdBvSb_dh4sdJ40b-40" target="cYnV1N8MFWXkoa1zYh9y-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dCXnAdBvSb_dh4sdJ40b-40" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;BoxInitializer&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3540" y="770" width="120" height="50" as="geometry" />
         </mxCell>
@@ -191,6 +194,9 @@
         </mxCell>
         <mxCell id="dCXnAdBvSb_dh4sdJ40b-56" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;初始化地图数据&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3830" y="670" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cYnV1N8MFWXkoa1zYh9y-1" value="&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;initBoxModel(warehouse)&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;;&lt;br&gt;&lt;/span&gt;initBoxRack(warehouse)&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;;&lt;br&gt;&lt;/span&gt;initBoxLattice(warehouse)&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;;&lt;br&gt;&lt;/span&gt;initBox(warehouse)&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;;&lt;br&gt;&lt;/span&gt;initDisplayRack(warehouse)&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3810" y="745" width="230" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
