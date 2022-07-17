@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-17T17:25:18.382Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="igMEiAw1ugStfotLpbwx" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-17T17:27:22.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="x8uNtJUDV4ROZtew28zM" version="20.0.3" type="github">
   <diagram id="vkZjJd3zyXeP24GeqPTx" name="Page-1">
     <mxGraphModel dx="944" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,6 +41,23 @@
         </mxCell>
         <mxCell id="pk-EQHkiXuOXY2i6Ty3T-16" value="光栅触发发送急停指令给RMS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="254" y="715" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pk-EQHkiXuOXY2i6Ty3T-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-17" value="RMS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="870" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-18" value="WMS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="870" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-20" value="货架到达工作站发送rpc指令给wms，wms显示捡货页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="170" y="890" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-21" value="RobotTaskCallbackFacade" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="245" y="850" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
