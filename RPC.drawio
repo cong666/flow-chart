@@ -1,1 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2022-07-17T16:58:20.188Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="20.0.3" etag="SCoqo4qukn2o3VCTH7z5" type="github"><diagram id="vkZjJd3zyXeP24GeqPTx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-17T17:25:18.382Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="igMEiAw1ugStfotLpbwx" version="20.0.3" type="github">
+  <diagram id="vkZjJd3zyXeP24GeqPTx" name="Page-1">
+    <mxGraphModel dx="944" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-3" value="com.geekplus.venus.device.api.DeviceTaskApi" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pk-EQHkiXuOXY2i6Ty3T-4" target="pk-EQHkiXuOXY2i6Ty3T-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-4" value="RMS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="385" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-5" value="DMP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="385" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-7" value="rms发送指令打开关闭声光报警" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="136" y="410" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-8" value="rms收到dmp的指令&lt;span style=&quot;color: rgb(106, 135, 89); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; text-align: start; background-color: rgb(43, 43, 43);&quot;&gt;ROBOT#NEXT[1]STOP[1]&lt;/span&gt;触发安全门触发急停之后，rms要回调dmp消息：&lt;br&gt;&lt;pre style=&quot;text-align: start; background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;NextDmpCallbackHandler： &lt;/span&gt;callback(jsonObject&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(106, 135, 89);&quot;&gt;&quot;DEVICE#ROBOTSTOP[1]&quot;&lt;/span&gt;)&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="136" y="450" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-9" value="&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 11px; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;当货架到达工作站的时候，&lt;span style=&quot;font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;rms&lt;/span&gt;需要发回调消息给&lt;span style=&quot;font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;DMP&lt;/span&gt;通知光栅开门&lt;span style=&quot;font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;/&lt;/span&gt;灯变蓝，&lt;span style=&quot;font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;DMPCallback&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="136" y="540" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-10" value="&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 11px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;RMS的RpcCallbackApi&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="274" y="650" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pk-EQHkiXuOXY2i6Ty3T-11" target="pk-EQHkiXuOXY2i6Ty3T-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="556" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-11" value="DMP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="685" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-12" value="RMS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="685" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pk-EQHkiXuOXY2i6Ty3T-16" value="光栅触发发送急停指令给RMS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="254" y="715" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
